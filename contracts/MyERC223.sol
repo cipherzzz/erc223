@@ -11,7 +11,7 @@ contract MyERC223 is DetailedERC20, MintableToken, BurnableToken {
     {}
 
 
-    // OVerridden transfer method with _data param for transaction data
+    // Overridden transfer method with _data param for transaction data
     function transfer(address _to, uint _value, bytes _data) public {
         uint codeLength;
 
